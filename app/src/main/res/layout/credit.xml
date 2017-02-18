@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Credit"
+        android:id="@+id/alert_title_custom"
+        android:padding="10dp"
+        android:background="#437C41"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:textColor="#f6f9fa"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Design and Developed By Saurabh Singh Rajput."
+        android:id="@+id/textView20"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:textColor="#0f33c6"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Saurabh Kumar"
+        android:id="@+id/textView26"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:textColor="#0f33c6"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: jsaurabh2794@gmail.com"
+        android:id="@+id/textView22"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:textColor="#0f33c6"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile: 7031431284"
+        android:id="@+id/textView23"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:textColor="#0f33c6"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Website: saurabhsinghrajput.com"
+        android:id="@+id/textView21"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:textColor="#0f33c6"
+        android:padding="5dp" />
+
+</LinearLayout>

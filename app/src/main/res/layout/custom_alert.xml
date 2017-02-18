@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="true">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Score"
+        android:id="@+id/custom_alert_title_dialogbox"
+        android:padding="10dp"
+        android:background="#437C41"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:textColor="#f6f9fa"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Your Score:"
+                android:id="@+id/textView25"
+                android:textStyle="normal"
+                android:typeface="serif"
+                android:textSize="18dp"
+                android:textColor="#0f33c6"
+                android:padding="10dp"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:id="@+id/your_score"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:textSize="18dp"
+                android:textColor="#090909"
+                android:padding="10dp"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Highest Score:"
+                android:id="@+id/textView24"
+                android:textStyle="normal"
+                android:typeface="serif"
+                android:textSize="18dp"
+                android:textColor="#0f33c6"
+                android:padding="10dp"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:id="@+id/highest_score"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:textSize="18dp"
+                android:textColor="#090909"
+                android:padding="10dp"
+                android:layout_column="3" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
